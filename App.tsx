@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Careers from './pages/Careers';
-import AiAssistant from './components/AiAssistant';
 import { PageState } from './types';
 import { Menu, X } from 'lucide-react';
 
@@ -129,9 +128,6 @@ const App: React.FC = () => {
             <span className="font-mono mt-2 md:mt-0">EST. 2010</span>
           </div>
         </footer>
-
-        {/* AI Assistant Widget */}
-        <AiAssistant />
       </div>
     </HashRouter>
   );
